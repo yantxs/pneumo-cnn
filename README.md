@@ -15,7 +15,7 @@ Repositório referente aos trabalhos desenvolvidos durante o ciclo do PIBIC 2020
    * [Rede Neural Convolucional](#rede-neural-convolucional)
       * [O que é Rede Neural Convolucional](#o-que-é-rede-neural-convolucional)
    * [Estrutura de diretório](#estrutura-de-diretório)
-   * [Licenças](#lincenças)
+   * [Licença](#licença)
 
 
  
