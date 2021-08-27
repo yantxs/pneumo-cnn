@@ -4,22 +4,29 @@
 
 
 Repositório referente aos trabalhos desenvolvidos durante o ciclo do PIBIC 2020/21 orientado pela Prof.ª Drª. Karin Komati. 
+
+
+### Conteúdo
+---
    * [Sobre](#Sobre)
    * [Tecnologias](#tecnologias)
    * [Dataset](#dataset)
    * [Rede Neural Convolucional](#rede-neural-convolucional)
-      * [O que são Rede Neurais Convolucionais?](#o-que-sao-rede-neurais-convolucionais)
-   * [Estrutura de diretório](#testes)
-   * [Licencas](#tecnologias)
+      * [O que é Rede Neural Convolucional](#o-que-é-rede-neural-convolucional)
+   * [Estrutura de diretório](#estrutura-de-diretório)
+   * [Licenças](#lincenças)
 
+
+ 
 #### Sobre
+----
 Pneumonia é uma doença caracterizada pela inflamação dos pulmões, e o seu diagnóstico é realizado com base nos sintomas, exame físico, análise bioquímica, análise microbiológica e radiológico, sendo geralmente a radiografia de tórax que é um elemento-chave no diagnóstico. 
 
 Usualmente, médicos analisam padrões radiológicos específicos associados a dados clínicos e laboratoriais para diferenciar a pneumonia entre etiologia viral e bacteriana. Radiografias que apresentam doença localizada com consolidações geralmente indicam uma infecção por bactérias, entretanto, exames que apresentam um padrão intersticial ou espessamento peribrôquico tendem a ser uma infecção de origem viral. 
 
 Desta forma o presente trabalho se compromete em estudar, implementar e analisar o uso de redes neurais convolucionais no auxilio do diagnóstico e classificação da pneumonia através de imagens de raio-X.
 #### Tecnologias
-
+----
 Foram utilizadas algumas ferramentas e tecnologias para o desenvolvimento deste trabalho, dentre elas:
 
 - [Python] - linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
@@ -30,15 +37,16 @@ Foram utilizadas algumas ferramentas e tecnologias para o desenvolvimento deste 
 
 
 #### Dataset
-
+----
 A base de dados utilizada foi a Chest X-Ray Images (Pneumonia) disponibilizada de forma pública na plataforma [Kaggle].
 
 
 Essa base de dados contém 5,863 imagens de radiografia de tórax de criancças de 1 a 5 anos.
 
 #### Rede Neural Convolucional
+----
 Neste repositório existe 4 modelos diferentes de Rede Neural Convolucional para resolução do problema proposto neste trabalho. 
-##### O que são Rede Neurais Convolucionais?
+##### O que é Rede Neural Convolucional?
 
 Uma rede neural convolucional é um tipo especial de implementação de inteligência artificial que utiliza de manipulações matemáticas de matrizes para processar imagens. 
 
@@ -57,7 +65,7 @@ Uma rede neural convolucional é um tipo especial de implementação de intelig�
 
 
 #### Estrutura de diretório
-
+----
 O repositório está organizado da seguinte maneira:
 
 | Arquivo | Descrição |
@@ -70,7 +78,7 @@ O repositório está organizado da seguinte maneira:
 
 
 ## Licença
-
+----
 MIT
 
 Yan **Teixeira**
