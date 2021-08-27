@@ -94,8 +94,8 @@ Yan **Teixeira**
    [Keras]: <https://keras.io/>
    [Collab]: <https://colab.research.google.com/>
    [Kaggle]: <https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia>
-   [model1]: <https://github.com/yantxs/pneumo-cnn/blob/main/model1/index.ipynb>
-   [model2]: <https://github.com/yantxs/pneumo-cnn/blob/main/model2/index.ipynb>
-   [model3]: <https://github.com/yantxs/pneumo-cnn/blob/main/model3/index.ipynb>
-   [model4]: <https://github.com/yantxs/pneumo-cnn/blob/main/model4/index.ipynb>
+   [model1]: <https://github.com/yantxs/pneumo-cnn/blob/main/src/model1/index.ipynb>
+   [model2]: <https://github.com/yantxs/pneumo-cnn/blob/main/src/model2/index.ipynb>
+   [model3]: <https://github.com/yantxs/pneumo-cnn/blob/main/src/model3/index.ipynb>
+   [model4]: <https://github.com/yantxs/pneumo-cnn/blob/main/src/model4/index.ipynb>
    
