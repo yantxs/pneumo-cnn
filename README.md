@@ -4,10 +4,10 @@
 
 
 Repositório referente aos trabalhos desenvolvidos durante o ciclo do PIBIC 2020/21 orientado pela Prof.ª Drª. Karin Komati. 
+----
 
+## Conteúdo
 
-### Conteúdo
----
    * [Sobre](#Sobre)
    * [Tecnologias](#tecnologias)
    * [Dataset](#dataset)
@@ -15,18 +15,20 @@ Repositório referente aos trabalhos desenvolvidos durante o ciclo do PIBIC 2020
       * [O que é Rede Neural Convolucional](#o-que-é-rede-neural-convolucional)
    * [Estrutura de diretório](#estrutura-de-diretório)
    * [Licenças](#lincenças)
-
+----
 
  
-#### Sobre
-----
+### Sobre
+
 Pneumonia é uma doença caracterizada pela inflamação dos pulmões, e o seu diagnóstico é realizado com base nos sintomas, exame físico, análise bioquímica, análise microbiológica e radiológico, sendo geralmente a radiografia de tórax que é um elemento-chave no diagnóstico. 
 
 Usualmente, médicos analisam padrões radiológicos específicos associados a dados clínicos e laboratoriais para diferenciar a pneumonia entre etiologia viral e bacteriana. Radiografias que apresentam doença localizada com consolidações geralmente indicam uma infecção por bactérias, entretanto, exames que apresentam um padrão intersticial ou espessamento peribrôquico tendem a ser uma infecção de origem viral. 
 
 Desta forma o presente trabalho se compromete em estudar, implementar e analisar o uso de redes neurais convolucionais no auxilio do diagnóstico e classificação da pneumonia através de imagens de raio-X.
-#### Tecnologias
+
 ----
+### Tecnologias
+
 Foram utilizadas algumas ferramentas e tecnologias para o desenvolvimento deste trabalho, dentre elas:
 
 - [Python] - linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
@@ -35,16 +37,18 @@ Foram utilizadas algumas ferramentas e tecnologias para o desenvolvimento deste 
 - [Keras] - biblioteca de rede neural de código aberto escrita em Python.
 - [Collab] - ambiente de notebooks Jupyter que não requer configuração e é executado na nuvem, disponibilizado pelo Google.
 
-
-#### Dataset
 ----
+### Dataset
+
 A base de dados utilizada foi a Chest X-Ray Images (Pneumonia) disponibilizada de forma pública na plataforma [Kaggle].
 
 
 Essa base de dados contém 5,863 imagens de radiografia de tórax de criancças de 1 a 5 anos.
 
-#### Rede Neural Convolucional
 ----
+
+### Rede Neural Convolucional
+
 Neste repositório existe 4 modelos diferentes de Rede Neural Convolucional para resolução do problema proposto neste trabalho. 
 ##### O que é Rede Neural Convolucional?
 
@@ -63,9 +67,10 @@ Uma rede neural convolucional é um tipo especial de implementação de intelig�
 - Usamos diferentes filtros para passer sobre nossa entrada, extraímos todos os mapas de caracteristicas, agrupamos e colocamos como a saída da camada convolucional.
 - E então passamos o resultado dessa saída por uma função de ativação
 
-
-#### Estrutura de diretório
 ----
+
+### Estrutura de diretório
+
 O repositório está organizado da seguinte maneira:
 
 | Arquivo | Descrição |
@@ -75,10 +80,11 @@ O repositório está organizado da seguinte maneira:
 | [src/model3/index.ipynb][model3] | Notebook com o modelo 3 de RNC proposto para classificação multiclasse entre normal, pneumonia viral e bacteriana. |
 | [src/model4/index.ipynb][model4] | Notebook com o modelo 4 de RNC proposto para classificação multiclasse entre normal, pneumonia viral e bacteriana. |
 
+----
 
 
 ## Licença
-----
+
 MIT
 
 Yan **Teixeira**
